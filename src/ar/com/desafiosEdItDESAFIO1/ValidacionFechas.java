@@ -32,8 +32,8 @@ public class ValidacionFechas {
 	    //validaciones:(t/f) 
 	    
 	    //función para validar el anio
-	    public static boolean validarAnio(int año) {
-	        return año >= 1900 && año <= 2099;
+	    public static boolean validarAnio(int anio) {
+	        return anio >= 1900 && anio <= 2099;
 	    }
 	    
 	    //función para validar el mes
